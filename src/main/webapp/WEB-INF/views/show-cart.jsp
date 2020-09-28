@@ -42,7 +42,14 @@
 	 </ul> 
 	 </div>
 	 </nav>
-	
+	<c:if test="${mssg != null }">  
+ 	<div class="container-fluid">			
+		<div class="alert alert-success"> 
+        <Strong>${mssg }</Strong> 
+        </div>             
+     </div>   	
+        <br/> 
+ </c:if> 
 	<br> 
 <c:choose>  
         <c:when test="${cartaddedproduct == null || cartaddedproduct.isEmpty() }">  

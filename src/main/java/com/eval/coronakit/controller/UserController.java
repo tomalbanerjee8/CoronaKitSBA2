@@ -88,6 +88,7 @@ public class UserController {
 		session.removeAttribute("cartproduct");
 		session.removeAttribute("cartaddedproduct");
 		session.removeAttribute("Qtymap");
+		session.setAttribute("msg", "");
 		return "show-all-item-user";
 	}
 	
@@ -138,7 +139,7 @@ public class UserController {
 				}
 		session.setAttribute("Qtymap", hm);
 		session.setAttribute("cartaddedproduct", RefreshCartAddedProducts);
-		model.addAttribute("msg", "Product got deleted successfully");
+		model.addAttribute("mssg", "Product got deleted successfully");
 		return "show-cart";
 	}
 

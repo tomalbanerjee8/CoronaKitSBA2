@@ -38,9 +38,14 @@
 		<li class="nav-item">
 	        <a class="nav-link" href="${pageContext.request.contextPath }/user/show-list">PRODUCTS LIST</a>
 	     </li>
+	    <li class="nav-item">
+	     <a class="nav-link" href="${pageContext.request.contextPath }/user/show-cart" >VIEW PRODUCTS CART</a> 
+	     </li> 
 	     <li class="nav-item">
 	      	  <a class="nav-link" href="${pageContext.request.contextPath }/logout">SIGN OUT</a>
-	      	</li>		     
+	      	</li>	
+	      	
+	      		     
 	 </ul> 
 	 </div>
 	 </nav>
@@ -49,11 +54,11 @@
  	<div class="container-fluid">			
 		<div class="alert alert-success"> 
         <Strong>${msg }</Strong> 
-        </div>        
+        </div>             
      </div>   	
         <br/> 
  </c:if> 
-	    	
+	    	 <a class="btn btn-sm btn-danger" href="${pageContext.request.contextPath }/user/show-cart" style="margin-left: 1000px;">VIEW PRODUCTS CART</a> 
 <c:choose>  
         <c:when test="${productlist == null || productlist.isEmpty() }"> 
         	</br>
@@ -89,11 +94,11 @@
         </c:otherwise>  
     </c:choose> 
  
-   <nav> 
+   <!--  <nav> 
     <hr/>  
    		<br/>   
        <a class="btn btn-sm btn-danger" href="${pageContext.request.contextPath }/user/show-cart" style="margin-left: 620px;">VIEW PRODUCTS CART</a>               
-    </nav>
+    </nav>-->
 
 </body>
 </html>

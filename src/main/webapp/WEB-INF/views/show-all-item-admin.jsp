@@ -35,10 +35,6 @@
  		<li class="nav-item">
 	        <a class="nav-link" href="${pageContext.request.contextPath }/admin/home">ADMIN DASHBOARD</a>
 	      </li> 
-		<li class="nav-item">
-	    <li class="nav-item">
-	        <a class="nav-link" href="${pageContext.request.contextPath }/admin/product-list">PRODUCTS LIST</a>
-	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="${pageContext.request.contextPath }/admin/product-entry">ADD NEW PRODUCT</a>
 	      </li>
