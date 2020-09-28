@@ -92,7 +92,7 @@
    <nav> 
     <hr/>  
    		<br/>   
-       <a class="btn btn-sm btn-danger" href="${pageContext.request.contextPath }/user/show-cart" style="margin-left: 500px;">VIEW PRODUCTS CART</a>               
+       <a class="btn btn-sm btn-danger" href="${pageContext.request.contextPath }/user/show-cart" style="margin-left: 620px;">VIEW PRODUCTS CART</a>               
     </nav>
 
 </body>

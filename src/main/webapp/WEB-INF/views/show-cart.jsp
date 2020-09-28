@@ -75,7 +75,7 @@
             <nav>
             <Hr/>
 		   		<br/>          
-		        <a class="btn btn-sm btn-primary"href="${pageContext.request.contextPath }/user/checkout" style="margin-left: 500px;">CHECKOUT</a>               
+		        <a class="btn btn-sm btn-primary"href="${pageContext.request.contextPath }/user/checkout" style="margin-left: 620px;">CHECKOUT</a>               
    			 </nav>   
         </c:otherwise>  
     </c:choose> 
